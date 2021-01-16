@@ -15,10 +15,10 @@
 <body>
     <div class="container mt-5">
 
-        <?php if (isset($_REQUEST['info'])){?>
+        <?php if (isset($_REQUEST['info'])){    ?>
             <?php if ($_REQUEST['info'] == 'added'){ ?>
                 <div class="alert alert-success  "role = "alert">
-                    <p>Blog is successfully submitted</p>
+                    <p>Blog is successfully submitted</p>git
                 </div>
             <?php }?>
         <?php }?>    

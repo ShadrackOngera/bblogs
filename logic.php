@@ -1,6 +1,7 @@
 <?php
 
-    $conn = mysqli_connect("localhost", "root", "", "bblogs");
+    //$conn = mysqli_connect("localhost", "root", "", "bblogs");
+    $connect=mysqli_connect('sql12.freemysqlhosting.net','sql12385387','WSqaN2iFUw','sql12385387');
 
     if (!$conn) {
         echo "<h3 class='bg-dark p-3 text-center mt-5 text-white'>Check your connection</h3>";
